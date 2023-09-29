@@ -1,5 +1,15 @@
 {
   "compilerOptions": {
+    "baseUrl": "/src",
+    "paths": {
+      "@/assets/*": ["/src/assets/"],
+      "@/common/*": ["/src/common/"],
+      "@/components/*": ["/src/components/"],
+      "@/config/*": ["/src/config/"],
+      "@/hook/*": ["/src/hook/"],
+      "@/pages/*": ["/src/pages/"],
+      "@/redux/*": ["/src/redux/"],
+    },
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
